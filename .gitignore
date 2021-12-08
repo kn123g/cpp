@@ -1,0 +1,19 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+
+# testing
+
+# production
+/build
+/Debug
+Debug
+*.sln
+*.tlog
+*.log
+*.editorconfig
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.lib
+*.obj
