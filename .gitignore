@@ -9,6 +9,7 @@
 /Debug
 v17
 Debug
+.vs/
 *.sln
 *.tlog
 *.log
