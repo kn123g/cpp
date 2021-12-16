@@ -13,7 +13,12 @@ public: int id;
 
 
 int main() {
+	//dynamic array
 	std::vector<Player> players;
+	// reserve optimizes the copy and double array till 50 capacity
+	players.reserve(50);
+	//capacity and size
+	std::cout << "capacity : " << players.capacity() << "\t size : " << players.size() << std::endl;
 	players.push_back({ "karthikeyan",1 });
 	players.push_back({ "Kavi",2 });
 	players.push_back({ "Naveen",3 });
