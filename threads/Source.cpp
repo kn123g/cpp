@@ -1,6 +1,13 @@
 #include "thread.h"
 void main() {
-	simpleThreadMain();
+	/*simpleThreadMain();
 	waysOfThreadCreationMain();
 	mutexMain();
+	joinMain();
+	detachMain();
+	mutexTryLockMain();
+	timedMutexMain();
+	conditionVariableMain();
+	deadLockMain();*/
+	producerConsumerMain();
 }

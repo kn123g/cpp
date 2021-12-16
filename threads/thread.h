@@ -2,3 +2,10 @@
 void mutexMain();
 void simpleThreadMain();
 void waysOfThreadCreationMain();
+void joinMain();
+void detachMain();
+void mutexTryLockMain();
+void timedMutexMain();
+void conditionVariableMain();
+void deadLockMain();
+void producerConsumerMain();
