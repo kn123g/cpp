@@ -1,6 +1,6 @@
 #include "thread.h"
 void main() {
-	/*simpleThreadMain();
+	simpleThreadMain();
 	waysOfThreadCreationMain();
 	mutexMain();
 	joinMain();
@@ -8,6 +8,6 @@ void main() {
 	mutexTryLockMain();
 	timedMutexMain();
 	conditionVariableMain();
-	deadLockMain();*/
+	deadLockMain();
 	producerConsumerMain();
 }
