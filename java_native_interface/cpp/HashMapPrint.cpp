@@ -30,3 +30,7 @@ JNIEXPORT jint JNICALL Java_com_HashMapPrint_hashMapPrintCPP(JNIEnv* env, jobjec
 	}
 	return (jint)10;
 }
+
+JNIEXPORT jstring JNICALL Java_com_HashMapPrint_passAndReturn(JNIEnv* env,jobject thisObject,jstring message) {
+	return message;
+}
