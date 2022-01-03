@@ -2,11 +2,11 @@
 #include<iostream>
 #include<windows.h>
 void main() {
-	createThreadMain();
+	/*createThreadMain();
 	Sleep(2000);
 	mutexMain();
 	Sleep(3000);
-	createEventMain();
-
+	createEventMain();*/
+	multipleProducerConsumerMain();
 	std::cin.get();
 }
